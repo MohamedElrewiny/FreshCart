@@ -25,7 +25,7 @@ const Navbar = () => {
           <li key={link.name}>
             <Link
               to={link.path}
-              className="text-xl font-medium hover:text-green-600 transition-colors duration-200"
+              className="text-lg font-medium hover:text-green-600 transition-colors duration-200"
             >
               {link.name}
             </Link>
@@ -47,13 +47,13 @@ const Navbar = () => {
           </Link> 
         </li>
         <li>
-          <Link  to={'/Login'} className="text-xl font-medium hover:text-green-600 transition-colors duration-200" >Login</Link> 
+          <Link  to={'/Login'} className="text-lg font-medium hover:text-green-600 transition-colors duration-200" >Login</Link> 
         </li>
         <li>
-          <Link  to={'/Register'} className="text-xl font-medium hover:text-green-600 transition-colors duration-200" >Register</Link> 
+          <Link  to={'/Register'} className="text-lg font-medium hover:text-green-600 transition-colors duration-200" >Register</Link> 
         </li>
         <li>
-          <Link  href={'/Logout'} className="text-xl font-medium hover:text-green-600 transition-colors duration-200" >Logout</Link> 
+          <Link  href={'/Logout'} className="text-lg font-medium hover:text-green-600 transition-colors duration-200" >Logout</Link> 
         </li>
       </ul>
     </nav>

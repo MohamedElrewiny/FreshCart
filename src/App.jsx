@@ -10,6 +10,8 @@ import Register from "./components/Authentication/Register/Register";
 import Login from "./components/Authentication/Login/Login";
 import About from "./components/About/About";
 import Contact from "./components/Contacts US/Contact";
+import { Toaster } from "sonner"
+
 
 const App = () => {
   const routers = createBrowserRouter([
@@ -30,10 +32,12 @@ const App = () => {
       ],
     },
   ]);
-  return (
+  return (<>
     <RouterProvider router={routers}>
       <Layout />
     </RouterProvider>
+      <Toaster richColors position="top-center" />
+</>
   );
 };
 
