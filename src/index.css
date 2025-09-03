@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+.fixed-content{
+  min-height: calc(100vh - 351.55px);
+}
